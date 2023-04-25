@@ -1,0 +1,37 @@
+
+
+body{
+   background-color: rgb(46, 46, 46);
+   
+}
+
+.titulo{
+    padding: 10px;
+    color: #36a564;
+    background-position: 100%;
+    margin: 20px
+    
+}
+
+.titulo:hover{
+    background-color: rgba(54, 165, 100, .5);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.menu {
+    font-size: 20px;
+    color: #fff;
+}
+
+.menu th{
+    border: 1px solid #36a564;
+    padding: 5px;
+}
+
+.som:hover{
+    background-color: rgba(54, 165, 100, .5);
+}
