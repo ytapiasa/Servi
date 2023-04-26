@@ -17,6 +17,17 @@ body{
     background-color: rgba(54, 165, 100, .5);
 }
 
+.media {
+    list-style: none;
+    font-size: 35px;
+    color: rgb(6, 224, 6);
+    display: inline-flex;
+    padding: 20px;
+    margin-right: 28%;
+    margin-left: 10%;
+}
+
+
 table{
     width: 100%;
     border-collapse: collapse;
