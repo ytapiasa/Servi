@@ -5,23 +5,71 @@ body{
    
 }
 
-.titulo{
-    padding: 10px;
-    color: #36a564;
-    background-position: 100%;
-    margin: 20px
-    
+.servi h1 {
+    color: rgb(6, 224, 6);
+    margin: 1px 900px 1px 5px;
+    padding: 1% 15% 1% 10%;
+    font-size: 35px;
+    display: block;
+    position: relative;
 }
 
-.titulo:hover{
+.servi h1:hover{
     background-color: rgba(54, 165, 100, .5);
 }
 
-.media img{
-    width:5%;
+.media {
+    list-style: none;
+    font-size: 35px;
+    color: rgb(6, 224, 6);
+    display: inline-flex;
+    padding: 20px;
+    margin-right: 28%;
+    margin-left: 10%;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #4caf4f00;
+    color: rgb(6, 224, 6);
+    padding: 16px;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    display: block;
     position: relative;
     right: -70%;
-}
+  }
+
+  .dropbtn:hover{
+    background-color: rgba(54, 165, 100, .5);
+  }
+  
+  /* Style the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: relative;
+    z-index: 1;
+    right: -70%;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(6, 224, 6);
+  }
 
 table{
     width: 100%;
@@ -34,7 +82,7 @@ table{
 }
 
 .menu th{
-    border: 1px solid #36a564;
+    border: 1px solid rgb(6, 224, 6);
     padding: 5px;
 }
 
