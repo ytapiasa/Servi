@@ -11,7 +11,7 @@ body{
     padding: 1% 15% 1% 10%;
     font-size: 35px;
     display: block;
-    position: relative;
+    position: absolute;
 }
 
 .servi h1:hover{
@@ -31,7 +31,7 @@ body{
 /* Style the dropdown button */
 .dropbtn {
     background-color: #4caf4f00;
-    color: rgb(6, 224, 6);
+    color: #fff;
     padding: 16px;
     font-size: 35px;
     border: none;
@@ -39,6 +39,7 @@ body{
     display: block;
     position: relative;
     right: -70%;
+    top: -50px;
   }
 
   .dropbtn:hover{
@@ -60,7 +61,7 @@ body{
   
   /* Style the links inside the dropdown */
   .dropdown-content a {
-    color: black;
+    color: rgb(6, 224, 6);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -68,12 +69,15 @@ body{
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: rgb(6, 224, 6);
+    background-color: rgba(54, 165, 100, .5);
   }
 
 table{
     width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-collapse: collapse;
+    position: relative;
 }
 
 .menu {
@@ -81,11 +85,52 @@ table{
     color: #fff;
 }
 
-.menu th{
+.menu th {
     border: 1px solid rgb(6, 224, 6);
     padding: 5px;
 }
 
+.menu th a{
+  text-decoration: none;
+  color: rgb(6, 224, 6);
+}
+
 .som:hover{
     background-color: rgba(54, 165, 100, .5);
+}
+
+/* contenedor de busqueda */
+
+.contenedor{
+  position: relative;
+  right: -30%;
+}
+
+.contenedor label{
+  color: #fff;
+}
+
+.contenedor input{
+  background-color: rgb(67, 199, 111);
+  text-align: center;
+  width: 30%;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.title{
+  color: #fff;
+}
+
+.servicios img{
+  width: 30%;
+}
+
+main p{
+  background-color: black;
+  padding: 20px;
+  color: #fff;
+  position: relative;
+
 }
