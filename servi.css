@@ -104,17 +104,12 @@ body {
 }
 
 .ingresar {
-    text-decoration: none;
-    color: aliceblue;
-    padding: 16px 16px 16px 16px;
-<<<<<<< HEAD
-    border: 3px solid rgb(0, 210, 0);
-    margin-left: 10%;
-=======
-    border: 3px solid rgba(123, 232, 148, 1);
-    margin-left: 8%;
->>>>>>> 1c9bb54e28b7fe0d5bab8877568945294ee031da
-    font-size: 25px;
+        text-decoration: none;
+        color: aliceblue;
+        padding: 16px 16px 16px 16px;
+        border: 3px solid rgb(0, 210, 0);
+        margin-left: 8%;
+        font-size: 25px;  
 }
 .registro {
     text-decoration: none;
