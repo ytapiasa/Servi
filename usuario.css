@@ -133,8 +133,15 @@ table{
   color: #fff;
 }
 
+.seccion{
+  position: absolute;
+  margin: 10px;
+  background-color: #ccc;
+  width: 25%;
+}
+
 .servicios img{
-  width: 30%;
+  width: 90%;
 }
 
 .pie{
