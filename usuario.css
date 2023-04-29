@@ -10,7 +10,7 @@ body{
 }
 
 .servi h1 {
-    color: rgb(6, 224, 6);
+    color: rgb(123, 232, 148);
     margin: 1px 900px 1px 5px;
     padding: 1% 15% 1% 10%;
     font-size: 35px;
@@ -25,11 +25,17 @@ body{
 .media {
     list-style: none;
     font-size: 35px;
-    color: rgb(6, 224, 6);
+    color: rgb(123, 232, 148);
     display: inline-flex;
     padding: 20px;
     margin-right: 28%;
     margin-left: 10%;
+    
+    font-size: 30px;
+    position: absolute;
+    left: 30%;
+    
+    
 }
 
 /* Style the dropdown button */
@@ -43,7 +49,7 @@ body{
     display: block;
     position: relative;
     right: -70%;
-    top: -50px;
+    top: -10px;
   }
 
   .dropbtn:hover{
@@ -65,7 +71,7 @@ body{
   
   /* Style the links inside the dropdown */
   .dropdown-content a {
-    color: rgb(6, 224, 6);
+    color: rgb(123, 232, 148);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -90,13 +96,13 @@ table{
 }
 
 .menu th {
-    border: 1px solid rgb(6, 224, 6);
+    border: 1px solid rgb(123, 232, 148);
     padding: 5px;
 }
 
 .menu th a{
   text-decoration: none;
-  color: rgb(6, 224, 6);
+  color: rgb(123, 232, 148);
 }
 
 .som:hover{
