@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    
+    font-family: 'Poppins', sans-serif;
 }
 
 html{
@@ -72,7 +72,7 @@ nav a:hover{
     bottom: 0%;
     left: 0%;
 }
-table{
+.pie1{
     position: absolute;
     /* width: 100%; */
     height: 100px;
