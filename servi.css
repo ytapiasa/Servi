@@ -128,6 +128,14 @@ justify-content: space-between;
 
 }
 
+.pie{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    bottom: 0%;
+    left: 0%;
+}
 table{
     position: absolute;
     /* width: 100%; */
