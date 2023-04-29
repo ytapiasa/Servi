@@ -80,7 +80,7 @@ body {
   }
 
 .hero {
-    margin: 8% 1% 1% 8%;
+    margin: 8% 5% -5% 7%;
     font-size: 30px;
     padding: 0;
     text-align: justify;
@@ -107,8 +107,13 @@ body {
     text-decoration: none;
     color: aliceblue;
     padding: 16px 16px 16px 16px;
+<<<<<<< HEAD
     border: 3px solid rgb(0, 210, 0);
     margin-left: 10%;
+=======
+    border: 3px solid rgba(123, 232, 148, 1);
+    margin-left: 8%;
+>>>>>>> 1c9bb54e28b7fe0d5bab8877568945294ee031da
     font-size: 25px;
 }
 .registro {
