@@ -23,7 +23,7 @@ body {
 }
 
 .servi h1 {
-    color: rgb(123, 232, 148);
+    color: rgba(123, 232, 148, 1);
     margin: 1px 20px auto 1px;
     padding: 1% 15% 1% 10%;
 }
@@ -37,7 +37,7 @@ body {
 .media {
     list-style: none;
     font-size: 35px;
-    color: rgb(123, 232, 148);
+    color: rgba(123, 232, 148, 1);
     display: inline-flex;
     padding: 20px;
     margin-right: 28%;
@@ -80,7 +80,7 @@ body {
   }
 
 .hero {
-    margin: 8% 1% 1% 8%;
+    margin: 8% 5% -5% 7%;
     font-size: 30px;
     padding: 0;
     text-align: justify;
@@ -107,15 +107,15 @@ body {
     text-decoration: none;
     color: aliceblue;
     padding: 16px 16px 16px 16px;
-    border: 3px solid rgb(0, 210, 0);
-    margin-left: 10%;
+    border: 3px solid rgba(123, 232, 148, 1);
+    margin-left: 8%;
     font-size: 25px;
 }
 .registro {
     text-decoration: none;
     color: aliceblue;
     padding: 16px 16px 16px 16px;
-    border: 3px solid rgb(0, 210, 0);
+    border: 3px solid rgba(123, 232, 148, 1);
     margin-left: 1%;
     font-size: 25px;
 }

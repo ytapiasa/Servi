@@ -21,7 +21,7 @@ body {
 }
 
 .servi h1 {
-    color: rgb(6, 224, 6);
+   color: rgba(123, 232, 148, 1);
     margin: 1px 20px auto 1px;
     padding: 1% 15% 1% 10%;
 }
@@ -35,7 +35,7 @@ body {
 .media {
     list-style: none;
     font-size: 35px;
-    color: rgb(6, 224, 6);
+    color: rgba(123, 232, 148, 1);
     display: inline-flex;
     padding: 20px;
     margin-right: 28%;
@@ -119,13 +119,13 @@ table{
 }
 
 .menu th {
-  border: 1px solid rgb(6, 224, 6);
+  border: 1px solid rgba(123, 232, 148, 1);
   padding: 5px;
 }
 
 .menu th a{
 text-decoration: none;
-color: rgb(6, 224, 6);
+color: rgba(123, 232, 148, 1);
 }
 
 .som:hover{
