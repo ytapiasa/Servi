@@ -34,13 +34,6 @@ button{
     margin:auto ;
     border-radius:  0 5px 5px 0;
     color: #0c0c0c;
-    
-    
-
-    /* width: 31px;
-    height: 31px; */
-    
-
 }
 h1{
     margin: 30px;
@@ -53,7 +46,7 @@ h2{
     margin: 30px;
     position: absolute;
     left: 84%;
-    bottom: 84%;
+    bottom: 85%;
 }
 nav{  
     display: flex;
@@ -124,3 +117,18 @@ table{
         background-color: rgba(54, 165, 100, .5);
     }
 
+    /* LOGOS */
+    .media {
+        list-style: none;
+        font-size: 35px;
+        color: rgba(123, 232, 148, 1);
+        display: inline-flex;
+        padding: 20px;
+        margin-right: 28%;
+        margin-left: 10%;
+
+    margin: 30px;
+    position: absolute;
+    left: 60%;
+    bottom: 82%;
+    }
