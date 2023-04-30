@@ -23,7 +23,7 @@ body {
 }
 
 .servi h1 {
-    color: rgb(6, 224, 6);
+    color: rgb(123, 232, 148);
     margin: 1px 20px auto 1px;
     padding: 1% 15% 1% 10%;
 }
@@ -37,7 +37,7 @@ body {
 .media {
     list-style: none;
     font-size: 35px;
-    color: rgb(6, 224, 6);
+    color: rgb(123, 232, 148);
     display: inline-flex;
     padding: 20px;
     margin-right: 28%;
@@ -107,7 +107,7 @@ body {
         text-decoration: none;
         color: aliceblue;
         padding: 16px 16px 16px 16px;
-        border: 3px solid rgb(0, 210, 0);
+        border: 3px solid rgb(123, 232, 148);
         margin-left: 8%;
         font-size: 25px;  
 }
@@ -115,7 +115,7 @@ body {
     text-decoration: none;
     color: aliceblue;
     padding: 16px 16px 16px 16px;
-    border: 3px solid rgb(0, 210, 0);
+    border: 3px solid rgb(123, 232, 148);
     margin-left: 1%;
     font-size: 25px;
 }
