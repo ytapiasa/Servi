@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+     background-color: rgb(46, 46, 46);
+     
+  }
+  
+  .servi h1 a {
+    text-decoration: none;
+      color: rgb(123, 232, 148);
+      margin: 1px 900px 1px 5px;
+      padding: 1% 15% 1% 10%;
+      font-size: 35px;
+      display: block;
+      position: absolute;
+  }
+  
+  .servi h1 a:hover{
+      background-color: rgba(54, 165, 100, .5);
+  }
+  
+  .media {
+      list-style: none;
+      font-size: 35px;
+      color: rgb(123, 232, 148);
+      display: inline-flex;
+      padding: 20px;
+      margin-right: 28%;
+      margin-left: 10%;
+      
+      font-size: 30px;
+      position: absolute;
+      left: 30%;
+      
+      
+  }
+  
+  /* Style the dropdown button */
+  .dropbtn {
+      background-color: #4caf4f00;
+      color: #fff;
+      padding: 16px;
+      font-size: 35px;
+      border: none;
+      cursor: pointer;
+      display: block;
+      position: relative;
+      right: -70%;
+      top: -10px;
+    }
+  
+    .dropbtn:hover{
+      background-color: rgba(54, 165, 100, .5);
+    }
+    
+    /* Style the dropdown content */
+    .dropdown-content {
+      display: none;
+      position: relative;
+      z-index: 1;
+      right: -70%;
+    }
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    /* Style the links inside the dropdown */
+    .dropdown-content a {
+      color: rgb(123, 232, 148);
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: rgba(54, 165, 100, .5);
+    }
+  
+  table{
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-collapse: collapse;
+      position: relative;
+  }
+  
+  .menu {
+      font-size: 20px;
+      color: #fff;
+  }
+  
+  .menu th {
+      border: 1px solid rgb(123, 232, 148);
+      padding: 5px;
+  }
+  
+  .menu th a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .som:hover{
+      background-color: rgba(54, 165, 100, .5);
+  }
+
+  .container{
+    background-color: #242424;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.container{
+    width: 500px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.titulo{
+    margin: 5px 40px;
+    color: #fff;
+    text-align: center;
+    border: solid rgba(123, 232, 148, 1);
+    border-style: solid ;
+    padding: 15px;
+}
+
+.padre{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nombre, .cedula, .correo, .pago{
+    display: flex;
+    flex-direction: column;
+}
+
+.pago select {
+  padding: 10px;
+}
+
+input{
+    padding: 20px;
+}
+
+input:focus{
+    outline: solid #36a564 5px;
+}
+
+.tyc p a{
+  text-decoration: none;
+  color: rgba(123, 232, 148, 1);
+}
+
+.tyc p a:hover {
+  background-color: rgba(123, 232, 148, 0.5);
+}
+
+.enviar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+ .enviar a{
+    text-decoration: none;
+    color: rgb(123, 232, 148, );
+    text-align: center;
+ }
+
+.boton{
+    background-color: rgba(123, 232, 148, 1);
+    border: none;
+     
+}
+
+label input{
+    text-align: center;
+    margin-bottom: 10px;
+}
