@@ -28,13 +28,43 @@
                     </div>
                     <div class="enviar">
                         <p>Ya tienes cuenta? <a href="">Entra aqui</a></p>
-                        <input class="boton" type="submit" value="Registrar">
+                        <input type="button" name="press" id="open" value="Registrar">
+
+
+                         <div id="popup" style="display: none;">
+                              <div class="content-pop">
+                                <div> <a href="#" id="close">X</a></div>
+                                 <h1>¡Bienvenido!</h1>
+                              </div>
+                        </div>
                     </div>
-            </div>
-            
-            
+              </div>
             </form>
         </div>
     </header>
+
+
+    <!--<input type="button" name="press" id="open" value="Abrir popup">
+
+    <div id="popup" style="display: none;">
+        <div class="content-pop">
+
+        
+            <div> <a href="#" id="close">X</a></div>
+                ¡Bienvenido!
+        </div>
+    </div> -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#open").on("click", function (){
+                $("#popup").fadeIn("slow");
+            });
+            $("#close").on("click", function (){
+                $("#popup").fadeOut("slow");
+            });
+        });
+    </script>
 </body>
 </html>
