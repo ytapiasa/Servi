@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="prueba.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="bienvenida.css">
+    <title>¡Bienvenido!</title>
 </head>
 <body>
-    <input type="checkbox" id="btn-modal">
+   <!--<input type="checkbox" id="btn-modal">
     <label for="btn-modal" class="lbl-modal">Abrir modal</label>
     <div class="modal">
         <div class="contenedor">
@@ -18,6 +18,28 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis velit autem nesciunt vitae excepturi atque voluptatibus itaque nisi eum!</p>
             </div>
         </div>
+    </div>--> 
+
+    <input type="button" name="press" id="open" value="Abrir popup">
+
+    <div id="popup" style="display: none;">
+        <div class="content-pop">
+
+        
+            <div> <a href="#" id="close">X</a></div>
+                ¡Bienvenido!
+        </div>
     </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#open").on("click", function (){
+                $("#popup").fadeIn("slow");
+            });
+            $("#close").on("click", function (){
+                $("#popup").fadeOut("slow");
+            });
+        });
+    </script>
 </body>
 </html>
