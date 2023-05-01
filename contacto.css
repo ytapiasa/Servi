@@ -221,7 +221,7 @@ ul, ol {
     margin: 5px 40px;
     color: #fff;
     text-align: center;
-    border: solid #36a564;
+    border: solid rgba(123, 232, 148, 1);
     border-style: solid ;
     padding: 15px;
 }
@@ -233,7 +233,7 @@ ul, ol {
     gap: 20px;
 }
 
-.nombre, .cedula, .correo, .password {
+.nombre, .cedula, .correo, .comentario{
     display: flex;
     flex-direction: column;
 }
@@ -251,9 +251,12 @@ input:focus{
     justify-content: space-between;
     align-items: center;
 }
-
+ .enviar a{
+    text-decoration: none;
+    color: rgba(123, 232, 148, 1);
+ }
 .boton{
-    background-color: #36a564;
+    background-color: rgba(123, 232, 148, 1);
     border: none;
     
 }
