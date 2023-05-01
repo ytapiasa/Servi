@@ -9,7 +9,8 @@ body{
    
 }
 
-.servi h1 {
+.servi h1 a {
+  text-decoration: none;
     color: rgb(123, 232, 148);
     margin: 1px 900px 1px 5px;
     padding: 1% 15% 1% 10%;
@@ -18,7 +19,7 @@ body{
     position: absolute;
 }
 
-.servi h1:hover{
+.servi h1 a:hover{
     background-color: rgba(54, 165, 100, .5);
 }
 
