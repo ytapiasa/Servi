@@ -131,6 +131,27 @@ label{
     min-width: 150px;
     background-color: rgb(0, 0, 0);
     border: 3px solid rgba(123, 232, 148, 1);
+    text-align: right;
+}
+
+.content-pop .bienvenido{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 40px;
+    color: rgba(123, 232, 148, 1);;
+}
+
+.enviar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enviar a{
+    text-decoration: none;
     color: rgba(123, 232, 148, 1);
-    justify-content: center;
+ }
+.boton{
+    background-color: rgba(123, 232, 148, 1);
+    border: none;
+    
 }
