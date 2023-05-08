@@ -10,31 +10,27 @@ html{
 .container{
     position: relative;
 }
-input{
+.contenedor{
+    position: relative;
+    right: -30%;
+  }
+  .cont{
+    color: white;
+  }
+  
+  .contenedor label{
+    color: #fff;
+  }
+  
+  .contenedor input{
+    background-color: rgb(67, 199, 111);
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
     padding: 10px;
-    padding-right: 35px;
-    border-radius:  5px 0 0 5px;
-    border: 0;
-    outline: none;
-     position: relative;
-    top: 99px; 
-     bottom: -99px;
-    right: 134;
-    justify-content: center;
-    
-}
-button{
-    background-color: rgba(123, 232, 148, 1);
-    padding: 10px 15px;
-    position: absolute;
-    border: 0;
-    top: 99px;
-    bottom: -99px;
-    /* right: 0; */
-    margin:auto ;
-    border-radius:  0 5px 5px 0;
-    color: #0c0c0c;
-}
+    margin: 20px;
+  }
+
 h1{
     margin: 30px;
     color: rgba(123, 232, 148, 1);
