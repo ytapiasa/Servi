@@ -14,9 +14,6 @@ html{
     position: relative;
     right: -30%;
   }
-  .cont{
-    color: white;
-  }
   
   .contenedor label{
     color: #fff;
@@ -35,6 +32,7 @@ h1{
     margin: 30px;
     color: rgba(123, 232, 148, 1);
 }
+
 h2{
     font-size: 30px;
     color: rgb(255, 255, 255);
