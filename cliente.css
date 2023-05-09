@@ -42,6 +42,85 @@ h2{
     left: 84%;
     bottom: 85%;
 }
+    /* menu desplegable */
+    /* nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+      }
+      
+      nav ul li {
+        display: inline-block;
+        position: relative;
+      }
+      
+      nav ul li a {
+        display: block;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      nav ul li:hover {
+        background-color: #555;
+      }
+      
+      nav ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+      }
+      
+      nav ul li:hover > ul {
+        display:inherit;
+      }
+      
+      nav ul ul li {
+        width: 200px;
+        float:none;
+        display:list-item;
+        position: relative;
+      }
+      
+      nav ul ul ul li {
+        position: relative;
+        top:-60px; 
+        left:200px;
+      } */
+
+        /* menu desplegable */
+      .menu1 {
+        border-collapse: collapse;
+      }
+      
+      table td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        position: relative;
+      }
+      
+      /* menu2 */
+      table td table {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+      }
+      
+      table td:hover > table {
+        display: table;
+      }
+      
+      table td table td {
+        border: none;
+        display: block;
+      }
+      
+      
+      
+      
+
 nav{  
     display: flex;
 }
@@ -100,6 +179,7 @@ nav a:hover{
     .menu th {
         border: 1px solid rgb(123, 232, 148);
         padding: 5px;
+        
     }
     
     .menu th a{
