@@ -94,18 +94,16 @@ h2{
         border-collapse: collapse;
       }
       
-      table td {
-        border: 1px solid #ccc;
-        padding: 10px;
-        position: relative;
-      }
+      
       
       /* menu2 */
       table td table {
         display: none;
-        position: absolute;
+       /*  position: absolute; */
         top: 100%;
         left: 0;
+        padding: 10px;
+        position: relative;
       }
       
       table td:hover > table {
