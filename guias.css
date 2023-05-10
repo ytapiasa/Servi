@@ -66,3 +66,10 @@ label{
     display: flex;
     flex-direction: column;
 }
+.boton{
+    background-color: #36a564;
+    border: none;
+    padding: 20px;
+    margin: 30px;
+    margin-bottom: 10px;
+}
