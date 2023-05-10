@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="ingreso.css">
+    <title>INGRESO</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <form action="">
+                <h2 class="titulo">Registro de usuario</h2>
+                <div class="padre">
+                    <div class="nombre">
+                        <label>Nombre de usuario o correo</label>
+                        <input type="lnombre">
+                    </div>
+                    <div class="password">
+                        <label>Contraseña</label>
+                        <input type="password" name="" id="">
+                    </div>
+                    <div class="enviar">
+                        <p>olvidaste tu contraseña? <a href="">Ingresa aqui</a></p>
+                        <input class="boton" type="button" name="press" id="open" value="INGRESAR">
+
+
+                         <div id="popup" style="display: none;">
+                              <div class="content-pop">
+                                <div> <a href="usuario.html" id="close" style="color: rgb(255, 0, 0);">X</a></div>
+                                 <h1 class="bienvenido">¡Bienvenido!</h1>
+                              </div>
+                        </div>
+                    </div>
+              </div>
+            </form>
+        </div>
+    </header>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#open").on("click", function (){
+                $("#popup").fadeIn("slow");
+            });
+            $("#close").on("click", function (){
+                $("#popup").fadeOut("slow");
+            });
+        });
+    </script>
+</body>
+</html>
