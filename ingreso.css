@@ -1,0 +1,157 @@
+body {
+    background: #ccc;
+    
+}
+body {
+    margin: 30px;
+    padding: 100px;
+    font-family: sans-serif;
+    height: 100px;
+}
+
+#header {
+    background-color: #242424;
+    margin: auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
+.nav > li {
+    float: left;
+}
+.nav li a {
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul {
+    display: block;
+}
+.nav li ul li {
+    position: relative;
+}
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+.block {
+    margin: 10% 40%;
+    background-color: #ccc;
+}
+
+/*registro usuario*/
+
+.container{
+    background-color: #242424;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.container{
+    width: 500px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.titulo{
+    margin: 5px 40px;
+    color: #fff;
+    text-align: center;
+    border: solid #36a564;
+    border-style: solid ;
+    padding: 15px;
+}
+
+.padre{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nombre, .cedula, .correo, .password {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 20px;
+}
+
+input:focus{
+    outline: solid #36a564 5px;
+}
+
+.enviar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton{
+    background-color: #36a564;
+    border: none;
+    
+}
+
+label{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#popup{
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001
+}
+
+.content-pop{
+    margin: 0px auto;
+    margin-top: 100px;
+    position: relative;
+    padding: 10px;
+    width: 500px;
+    min-height: 250px;
+    min-width: 150px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgba(123, 232, 148, 1);
+    text-align: right;
+}
+
+.content-pop .bienvenido{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 20px;
+    color: rgba(123, 232, 148, 1);;
+}
+
+.enviar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enviar a{
+    text-decoration: none;
+    color: rgba(123, 232, 148, 1);
+ }
+.boton{
+    background-color: rgba(123, 232, 148, 1);
+    border: none;
+    
+}
