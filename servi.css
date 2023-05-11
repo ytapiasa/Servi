@@ -110,7 +110,11 @@ body {
         border: 3px solid rgb(123, 232, 148);
         margin-left: 8%;
         font-size: 25px;  
+        position: relative;
+        left: 0%;
+        top: 70%;
 }
+
 .registro {
     text-decoration: none;
     color: aliceblue;
@@ -118,6 +122,9 @@ body {
     border: 3px solid rgb(123, 232, 148);
     margin-left: 1%;
     font-size: 25px;
+    position: relative;
+    left: 0%;
+    top: 70%;
 }
 
 
