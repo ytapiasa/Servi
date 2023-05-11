@@ -59,9 +59,9 @@
     /* Style the dropdown content */
     .dropdown-content {
       display: none;
-      position: relative;
+      position: absolute;
       z-index: 1;
-      right: -70%;
+      right: 20%;
     }
     
     /* Show the dropdown menu on hover */
