@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-color: rgba(26, 25, 25, 0.816);
+    color: aliceblue;
+    
+}
+body {
+    margin: auto;
+}
+.servi {
+    
+    display: flex;
+    border: 3px solid rgba(0, 0, 0, 0.422);
+
+}
+
+.servi h1 {
+   color: rgba(123, 232, 148, 1);
+    margin: 1px 20px auto 1px;
+    padding: 1% 15% 1% 10%;
+}
+    
+.servi h2 {
+    color: aliceblue;
+    margin-left: 340px;
+    padding: 20px 240px;
+}
+
+.media {
+    list-style: none;
+    font-size: 35px;
+    color: rgba(123, 232, 148, 1);
+    display: inline-flex;
+    padding: 20px;
+    margin-right: 28%;
+    margin-left: 10%;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #4caf4f00;
+    color: white;
+    padding: 16px;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /*
+  nav {
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+
+  .contact {
+    background: black;
+    margin-top: 55px;
+    padding-left: 8%;
+  }
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    
+  }
+*/
+
+
+table{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+  position: relative;
+}
+
+.menu {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.menu th {
+  border: 1px solid rgba(123, 232, 148, 1);
+  padding: 5px;
+}
+
+.menu th a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+
+.som:hover{
+  background-color: rgba(54, 165, 100, .5);
+}
+
+.pie{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    left: 0%;
+  }
+  
+  .pie1{
+    position: absolute;
+    /* width: 100%; */
+    height: 100px;
+    color: white;
+    bottom: -10%;
+    left: 0%;
+    font-size: 25px;
+  }
+  
+  .p{
+    font-size: 20px;
+    text-decoration: none;
+    padding: .875rem 1.25rem;
+    color: rgb(255, 255, 255);
+    /* background: rgb(187, 106, 106); */
+    margin: auto; 
+  }
+
+#header {
+    background-color: #242424;
+    margin: auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
+.nav > li {
+    float: left;
+}
+.nav li a {
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul {
+    display: block;
+}
+.nav li ul li {
+    position: relative;
+}
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+.block {
+    margin: 10% 40%;
+    background-color: #ccc;
+}
+
+/*registro usuario*/
+
+.container{
+    background-color: #242424;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.container{
+    width: 500px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.titulo{
+    margin: 5px 40px;
+    color: #fff;
+    text-align: center;
+    border: solid rgba(123, 232, 148, 1);
+    border-style: solid ;
+    padding: 15px;
+    font-size: 28px;
+}
+
+.padre{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.padre ul li{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.padre ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+
+}
+
+.nombre, .cedula, .correo, .comentario{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 20px;
+}
+
+input:focus{
+    outline: solid #36a564 5px;
+}
+
+.salir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+ .salir a{
+    text-decoration: none;
+    color: rgba(123, 232, 148, 1);
+ }
+.boton{
+    background-color: rgba(123, 232, 148, 1);
+    border: none;
+}
+
+
+label{
+    text-align: center;
+    margin-bottom: 10px;
+}
