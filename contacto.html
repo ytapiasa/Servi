@@ -60,8 +60,16 @@
                         <input type="text" name="" id="">
                     </div>
                     <div class="enviar">
-                        <p>Ya tienes cuenta? <a href="servi.html">Ingresa aqui</a></p>
-                        <input class="boton" type="submit" value="Enviar">
+                        <p>Ya tienes una cuenta? <a href="servi.html">Ingresa aqui</a></p>
+                        <input class="boton" type="button" name="press" id="open" value="Enviar">
+
+
+                         <div id="popup" style="display: none;">
+                              <div class="content-pop">
+                                <div> <a href="servi.html" id="close" style="color: rgb(196, 29, 29);">X</a></div>
+                                 <h1 class="bienvenido">La información ha sido enviada!</h1>
+                              </div>
+                        </div>
                     </div>
             </div>     
             </form>
@@ -85,5 +93,16 @@
         </footer>
        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#open").on("click", function (){
+                $("#popup").fadeIn("slow");
+            });
+            $("#close").on("click", function (){
+                $("#popup").fadeOut("slow");
+            });
+        });
+    </script>
 </body>
 </html>
