@@ -15,6 +15,7 @@ body {
     border: solid #36a564;
     border-style: solid ;
     padding: 15px;
+    margin: 15px;
 }
 .container{
     background-color: #242424;
@@ -38,17 +39,22 @@ body {
     
 }
 
-.box{
+.box {
     position: relative;
     width: 400px;
     padding: 40px;
     margin: auto;
-    margin-top: 15px;
+    margin: 1px;
     color: #242424;
+    margin: 1px;
 }
-input{
+p{
+    margin: 5px;
+    font-size: 15px;
+}
+/* input{
     padding: 80px;
-}
+} */
 
 input:focus{
     outline: solid #36a564 5px;
