@@ -42,14 +42,15 @@ body {
 .box {
     position: relative;
     width: 400px;
-    padding: 40px;
+    padding: 30px;
     margin: 1px;
     color: #242424;
 
 }
 p{
-    margin: 5px;
+    margin: 1px;
     font-size: 15px;
+    padding: 1px;
 }
 /* input{
     padding: 80px;
