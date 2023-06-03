@@ -10,6 +10,7 @@
 html {
     background-color: rgba(26, 25, 25, 0.816);
     color: aliceblue;
+    flex-wrap: wrap;
     
 }
 body {
@@ -42,6 +43,7 @@ body {
     padding: 20px;
     margin-right: 28%;
     margin-left: 10%;
+    flex-wrap: wrap;
 }
 
 /* Style the dropdown button */
@@ -52,6 +54,7 @@ body {
     font-size: 35px;
     border: none;
     cursor: pointer;
+    min-width: 250px;
   }
   
   /* Style the dropdown content */
@@ -59,6 +62,7 @@ body {
     display: none;
     position: absolute;
     z-index: 1;
+    flex-wrap: wrap;
   }
   
   /* Show the dropdown menu on hover */
