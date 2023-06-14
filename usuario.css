@@ -15,7 +15,7 @@ body{
     color: rgb(123, 232, 148);
     margin: 1px 900px 1px 5px;
     padding: 1% 15% 1% 10%;
-    font-size: 35px;
+    /* font-size: 35px; */
     display: block;
     position: absolute;
     flex-wrap: wrap;
@@ -260,4 +260,83 @@ button:hover{
   color: rgb(255, 255, 255);
   /* background: rgb(187, 106, 106); */
   margin: auto; 
+}
+
+/* para 980px o menos */
+@media screen and (max-width:980px) {
+  .servi, h1, a {
+    width: 100%;
+    font-size: 80px;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+  }
+  .media, ion-icon {
+    width: 100%;
+    position: relative;
+    font-size: 75px;
+  }
+  
+  .dropdown {
+    width: 600px;
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+  }
+  .dropdown-content {
+    width:50%;
+  }
+  table, tr, th { 
+    width: 25%;
+  }
+  .contenedor{
+    width: 100%;
+    font-size: 80px;
+  }
+  .contenedor, input{
+    width: 100%;
+    font-size: 80px;
+  }
+}
+
+/* para 700px o menos */
+@media screen and (max-width:700px) {
+  body {
+    width: 100%;
+  }
+  div, .servi {
+    font-size:1.5em;
+  }
+  .dropdown {
+    width:94%;
+  }
+  .dropdown-content {
+    float:left;
+    clear:none;
+    width:50%;
+  }
+  .menu {
+    float:none;
+  }
+}
+
+/* para 480px o menos */
+@media screen and (max-width:480px) {
+  /* body {
+    display:none;
+  } */
+  div, .servi {
+    font-size:1.5em;
+  }
+  .dropdown {
+    width:94%;
+  }
+  .dropdown-content {
+    float:left;
+    clear:none;
+    width:50%;
+  }
+  .menu {
+    float:none;
+  }
 }
