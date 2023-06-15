@@ -13,7 +13,7 @@ body{
 .servi h1 a {
   text-decoration: none;
     color: rgb(123, 232, 148);
-    margin: 1px 900px 1px 5px;
+    margin: 1px 1px 1px 5px;
     padding: 1% 15% 1% 10%;
     /* font-size: 35px; */
     display: block;
@@ -27,18 +27,12 @@ body{
 
 .media {
     list-style: none;
-    font-size: 35px;
     color: rgb(123, 232, 148);
     display: inline-flex;
-    padding: 20px;
-    margin-right: 28%;
-    margin-left: 10%;
-    
-    font-size: 30px;
+    left: 650px;
     position: absolute;
-    left: 30%;
     flex-wrap: wrap;
-    
+    font-size: 35px;
 }
 
 /* Style the dropdown button */
@@ -53,7 +47,6 @@ body{
     position: relative;
     left: 70%; 
     top: -10px;
-    flex-wrap: wrap;
   }
 
   .dropbtn:hover{
@@ -187,7 +180,7 @@ table{
 
 .contenedor{
   position: relative;
-  right: -30%;
+  margin: 10px;
   flex-wrap: wrap;
   min-width: 250px;
 }
@@ -199,10 +192,10 @@ table{
 .contenedor input{
   background-color: rgb(67, 199, 111);
   text-align: center;
-  width: 30%;
+  width: 70%;
   border-radius: 20px;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .title{
@@ -264,43 +257,64 @@ button:hover{
 
 /* para 980px o menos */
 @media screen and (max-width:980px) {
-  .servi, h1, a {
-    width: 100%;
-    font-size: 80px;
+  .servi, h1 {
+    width: 50%;
+    font-size: 100px;
     flex-wrap: wrap;
     text-align: center;
     position: relative;
   }
-  .media, ion-icon {
-    width: 100%;
-    position: relative;
-    font-size: 75px;
+  .media {
+    width: 80%;
+    left: 20px;
+    font-size: 100px;
+    top: 250px;
   }
   
-  .dropdown {
-    width: 600px;
+  .dropbtn {
     position: relative;
-    text-align: center;
-    font-size: 80px;
+    font-size: 100px;
+  
   }
   .dropdown-content {
     width:50%;
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    left: 400px;
   }
   table, tr, th { 
-    width: 25%;
+    font-size: 50px;
   }
   .contenedor{
     width: 100%;
-    font-size: 80px;
+    font-size: 50px;
   }
   .contenedor, input{
     width: 100%;
-    font-size: 80px;
+    font-size: 50px;
+  }
+  .title{
+    font-size: 50px;
+  }
+  .seccion{
+    width: 50%;
+    position: absolute;
+    display: block;
+   left: 60px;
+  }
+  button, .wht {
+    width: 30%;
+    top: 200px;
+    left: 600px;
+  }
+  .p{
+    font-size: 40px;
   }
 }
 
 /* para 700px o menos */
-@media screen and (max-width:700px) {
+/* @media screen and (max-width:700px) {
   body {
     width: 100%;
   }
@@ -319,12 +333,12 @@ button:hover{
     float:none;
   }
 }
-
+ */
 /* para 480px o menos */
-@media screen and (max-width:480px) {
-  /* body {
+/* @media screen and (max-width:480px) {
+   body {
     display:none;
-  } */
+  } 
   div, .servi {
     font-size:1.5em;
   }
@@ -339,4 +353,4 @@ button:hover{
   .menu {
     float:none;
   }
-}
+} */
