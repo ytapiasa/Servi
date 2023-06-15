@@ -79,3 +79,48 @@ label{
     color: black;
 }
 
+
+/* para 980px o menos */
+@media screen and (max-width:980px){
+
+    h2{
+        font-size: 11px;
+    }
+   
+    .boton{
+        padding: 10px;
+        margin: 20px;
+        margin-bottom: 50px;}
+
+        .container{
+            width: auto;
+            padding: auto;
+             margin: auto;
+            margin-top: 20px;
+        }
+
+        .box{
+            width: auto;
+            padding: auto;
+             margin: auto;  
+        }
+
+    header {
+        font-size: 11px;
+      }
+    
+      nav {
+        font-size: 16px;
+      }
+    
+      main {
+        padding: 10px;
+      }
+    
+      footer {
+        font-size: 14px;
+      }
+    }
+
+
+
