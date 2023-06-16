@@ -85,12 +85,14 @@ label{
 
 
     .container{
+        margin-left: -125px;
         width: 700px;
         font-size: 30px;
         width: auto;
         text-align: center;
         width: 500px;
         font-size: 40px;
+        
     
       }
       
@@ -99,7 +101,7 @@ label{
         text-align: center;
       }
       
-      p{
+      .p{
         font-size: 30px;
         text-align: center;
       }
