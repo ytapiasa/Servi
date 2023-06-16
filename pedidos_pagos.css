@@ -85,3 +85,30 @@ label{
     color: black;
 }
 
+/* para 980px */
+@media screen and (max-width:980px){
+
+
+    .container{
+        margin-left: -125px;
+        width: 700px;
+        font-size: 30px;
+        width: auto;
+        text-align: center;
+        width: 500px;
+        font-size: 40px;
+        
+    
+      }
+      
+      .titulo{
+        font-size: 40px;
+        text-align: center;
+      }
+      
+      p{
+        font-size: 30px;
+        text-align: center;
+      }
+    }
+
