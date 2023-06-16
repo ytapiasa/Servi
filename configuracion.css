@@ -91,10 +91,7 @@ label{
         text-align: center;
         width: 500px;
         font-size: 40px;
-        
-        
-
-          
+    
       }
       
       .titulo{
@@ -102,7 +99,7 @@ label{
         text-align: center;
       }
       
-      .p{
+      p{
         font-size: 30px;
         text-align: center;
       }
