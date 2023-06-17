@@ -14,7 +14,7 @@ html {
     
 }
 body {
-    margin: auto;
+    /* margin: auto; */
 }
 .servi {
     
@@ -25,7 +25,7 @@ body {
 
 .servi h1 {
     color: rgb(123, 232, 148);
-    margin: 1px 20px auto 1px;
+    /* margin: 1px 20px auto 1px; */
     padding: 1% 15% 1% 10%;
 }
     
@@ -41,7 +41,7 @@ body {
     color: rgb(123, 232, 148);
     display: inline-flex;
     padding: 20px;
-    margin-right: 28%;
+    /* margin-right: 28%; */
     margin-left: 10%;
     flex-wrap: wrap;
 }
@@ -180,3 +180,65 @@ justify-content: space-between;
     }
 }
 
+/* para 980px o menos */
+@media screen and (max-width:980px) {
+  .servi {
+    width: 100%;
+    font-size: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    left: 80px;
+  }
+  .media {
+    width: 80%;
+    left: 20px;
+    font-size: 100px;
+    top: 20px;
+    position: relative;
+  }
+  
+  .dropbtn {
+    position: relative;
+    font-size: 100px;
+    width: 10%;
+    top: -300px;
+    left: 309px;
+  
+  }
+  .dropdown-content {
+    position: relative;
+    font-size: 50px;
+    width: 10%;
+    top: -300px;
+    left: 300px;
+  }
+  table, tr, th { 
+    font-size: 50px;
+  }
+  .contenedor{
+    width: 100%;
+    font-size: 50px;
+  }
+  .contenedor, input{
+    width: 100%;
+    font-size: 50px;
+  }
+  .title{
+    font-size: 50px;
+  }
+  .seccion{
+    width: 50%;
+    position: absolute;
+    display: block;
+   left: 60px;
+  }
+  button, .wht {
+    width: 30%;
+    top: 200px;
+    left: 600px;
+  }
+  .p{
+    font-size: 40px;
+  }
+}
