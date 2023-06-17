@@ -77,29 +77,128 @@ label{
     color: black;
 }
 
-/* para 980px */
-@media screen and (max-width:980px){
-
-
-    .container{
-        margin-left: -125px;
-        width: 700px;
-        font-size: 30px;
-        width: auto;
-        text-align: center;
-        width: 500px;
-        font-size: 40px;
-        
-    
-      }
-      
-      .titulo{
-        font-size: 40px;
-        text-align: center;
-      }
-      
-      p{
-        font-size: 30px;
-        text-align: center;
-      }
+/* para 980px o menos */
+@media screen and (max-width:980px) {
+    .servi, h1 {
+      width: 80%;
+      font-size: 30px;
+      flex-wrap: wrap;
+      text-align: center;
+      position: relative;
     }
+    
+    .media {
+      width: 150px;
+      left: 20px;
+      font-size: 100px;
+      top: 250px;
+    }
+    .dropdown{
+      text-align: center;
+      top: 20%;
+    }
+    
+    .dropbtn {
+      position: relative;
+      font-size: 30px;
+      left: 5%;
+      top: 20%;
+    }
+    .dropdown-content {
+      width:50%;
+      position: relative;
+      text-align: center;
+      font-size: 18px;
+      left: 80%;
+    }
+    table{
+      flex-wrap: wrap;
+      position: relative;
+  
+    }
+    table, tr, th { 
+      font-size: 15px;
+    }
+    .contenedor{
+      width: 100%;
+      font-size: 50px;
+    }
+    .contenedor, input{
+      width: 100%;
+      font-size: 50px;
+    }
+    .title{
+      font-size: 50px;
+    }
+    .seccion{
+      width: 50%;
+      position: absolute;
+      display: block;
+     left: 60px;
+    }
+    button, .wht {
+      width: 30%;
+      top: 200px;
+      left: 600px;
+    }
+    .p{
+      font-size: 20px;
+    }
+    .menu{
+      flex-wrap: wrap;
+      text-align: center;
+      position: relative;
+  
+    }
+    .pie{
+      flex-wrap: wrap;
+      position: relative;
+  
+    }
+    .pie a{
+      font-size: 15px;
+    }
+  
+  }
+  
+  /* para 700px o menos */
+  /* @media screen and (max-width:700px) {
+    body {
+      width: 100%;
+    }
+    div, .servi {
+      font-size:1.5em;
+    }
+    .dropdown {
+      width:94%;
+    }
+    .dropdown-content {
+      float:left;
+      clear:none;
+      width:50%;
+    }
+    .menu {
+      float:none;
+    }
+  }
+   */
+  /* para 480px o menos */
+  /* @media screen and (max-width:480px) {
+     body {
+      display:none;
+    } 
+    div, .servi {
+      font-size:1.5em;
+    }
+    .dropdown {
+      width:94%;
+    }
+    .dropdown-content {
+      float:left;
+      clear:none;
+      width:50%;
+    }
+    .menu {
+      float:none;
+    }
+  } */
